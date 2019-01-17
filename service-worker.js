@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/GeonilJang/movielist.git/precache-manifest.d765e56faa166dfbfd2f27430b54e6c1.js"
+  "/movielist/precache-manifest.b584fbe29c322273bf1f36ddfe27de5b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/GeonilJang/movielist.git/index.html", {
+workbox.routing.registerNavigationRoute("/movielist/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
